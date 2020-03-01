@@ -1,14 +1,15 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+template<typename T>
 struct fenwick
 {
-	vector<int> tree;
+	vector<T> tree;
 	fenwick(int n) : tree(n + 1) {}
-	int sum(int pos)
+	T sum(int pos)
 	{
 		pos++;
-		int ret = 0;
+		T ret = 0;
 		while (pos > 0)
 		{
 			ret += tree[pos];
@@ -16,7 +17,7 @@ struct fenwick
 		}
 		return ret;
 	}
-	void add(int pos, int val)
+	void add(int pos, T val)
 	{
 		pos++;
 		while (pos < tree.size())
