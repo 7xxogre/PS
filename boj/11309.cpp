@@ -1,5 +1,5 @@
 // https://www.acmicpc.net/problem/11309
-// 파워!!달걀
+// 11309번 파워!!달걀
 
 #include <iostream>
 
