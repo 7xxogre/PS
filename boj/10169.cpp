@@ -1,5 +1,5 @@
 // https://www.acmicpc.net/problem/10169
-// 안전한 비상 연락망
+// 10169번 안전한 비상 연락망
 #include<iostream>
 #include<string.h>
 #include<algorithm>
