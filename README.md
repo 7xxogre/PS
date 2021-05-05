@@ -1,2 +1,3 @@
 # algo
-백준 문제 인터넷에서 해답 안보이는거 모음
+
+Problem solving on acmicpc.net
