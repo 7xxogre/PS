@@ -1,4 +1,5 @@
-// 님게임3 16895.cpp
+// 16895 님게임3
+// https://www.acmicpc.net/problem/16895
 #include<iostream>
 #include<vector>
 
